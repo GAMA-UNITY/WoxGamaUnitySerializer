@@ -1,0 +1,58 @@
+<object type="data.AgentClass" id="0">
+	<field name="name" type="string" value="Agent 0" />
+	<field name="age" type="int" value="71" />
+	<field name="hieght" type="float" value="1.86" />
+	<field name="weight" type="double" value="56.76" />
+	<field name="married" type="boolean" value="true" />
+	<field name="children">
+		<object type="list" elementType="Object" length="3" id="1">
+			<object type="data.AgentClass" id="2">
+				<field name="name" type="string" value="Agent 1" />
+				<field name="age" type="int" value="23" />
+				<field name="hieght" type="float" value="1.78" />
+				<field name="weight" type="double" value="72.45" />
+				<field name="married" type="boolean" value="false" />
+				<field name="children">
+					<object type="list" elementType="Object" length="0" id="3" />
+				</field>
+				<field name="map">
+					<object type="map" id="4">
+						<object type="entry">
+							<object type="string" value="vaibhav" id="5" />
+							<object type="int" value="21" id="6" />	
+						</object>
+						<object type="entry">
+							<object type="string" value="vishal" id="7" />
+							<object type="int" value="11" id="8" />
+						</object>
+					<object type="entry">
+						<object type="string" value="sachin" id="9" />
+						<object type="int" value="31" id="10" />
+					</object>
+				</object>
+			</field>
+		</object>
+		<object type="data.AgentClass" id="11">
+			<field name="name" type="string" value="Agent 2" />
+			<field name="age" type="int" value="13" />
+			<field name="hieght" type="float" value="1.28" />
+			<field name="weight" type="double" value="42.45" />
+			<field name="married" type="boolean" value="false" />
+			<field name="children">
+				<object idref="3" />
+			</field>
+			<field name="map">
+				<object type="map" id="12">
+					<object type="entry">
+						<object idref="5" />
+						<object type="int" value="22" id="13" />
+					</object>
+					<object type="entry">
+						<object idref="7" />
+						<object type="int" value="12" id="14" />
+					</object>
+					<object type="entry">
+						<object idref="9" />
+						<object type="int" value="32" id="15" />
+</object></object></field></object><object type="data.AgentClass" id="16">
+<field name="name" type="string" value="Agent 3" /><field name="age" type="int" value="2" /><field name="hieght" type="float" value="0.78" /><field name="weight" type="double" value="12.45" /><field name="married" type="boolean" value="false" /><field name="children"><object idref="3" /></field><field name="map"><object type="map" id="17"><object type="entry"><object idref="5" /><object type="int" value="23" id="18" /></object><object type="entry"><object idref="7" /><object type="int" value="13" id="19" /></object><object type="entry"><object idref="9" /><object type="int" value="33" id="20" /></object></object></field></object></object></field><field name="map"><object type="map" id="21"><object type="entry"><object idref="5" /><object type="int" value="20" id="22" /></object><object type="entry"><object idref="7" /><object type="int" value="10" id="23" /></object><object type="entry"><object idref="9" /><object type="int" value="30" id="24" /></object></object></field></object>
